@@ -1,1 +1,3 @@
-global.dialog_index = 0;
+function dialog_reset() {
+    global.dialog_index = 0;
+}

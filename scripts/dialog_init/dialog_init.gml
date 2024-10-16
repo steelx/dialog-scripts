@@ -1,4 +1,5 @@
 /// @description initialize the dialog messages
-
-global.dialog_messages = -1;
-global.dialog_index = -1;
+function dialog_init() {
+    global.dialog_messages = -1;
+    global.dialog_index = -1;
+}
